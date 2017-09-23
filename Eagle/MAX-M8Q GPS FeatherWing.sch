@@ -1,9 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="7.6.0">
+<eagle version="8.3.2">
 <drawing>
 <settings>
 <setting alwaysvectorfont="yes"/>
+<setting keepoldvectorfont="yes"/>
 <setting verticaltext="up"/>
 </settings>
 <grid distance="0.1" unitdist="inch" unit="inch" style="lines" multiple="1" display="no" altdistance="0.01" altunitdist="inch" altunit="inch"/>
@@ -8491,109 +8492,6 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 </deviceset>
 </devicesets>
 </library>
-<library name="jumper">
-<description>&lt;b&gt;Jumpers&lt;/b&gt;&lt;p&gt;
-&lt;author&gt;Created by librarian@cadsoft.de&lt;/author&gt;</description>
-<packages>
-<package name="SJ">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.397" y1="-1.016" x2="-1.397" y2="-1.016" width="0.1524" layer="21"/>
-<wire x1="1.397" y1="1.016" x2="1.651" y2="0.762" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="0.762" x2="-1.397" y2="1.016" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.397" y2="-1.016" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.397" y1="-1.016" x2="1.651" y2="-0.762" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.651" y1="-0.762" x2="1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.651" y1="-0.762" x2="-1.651" y2="0.762" width="0.1524" layer="21"/>
-<wire x1="-1.397" y1="1.016" x2="1.397" y2="1.016" width="0.1524" layer="21"/>
-<wire x1="1.016" y1="0" x2="1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.016" y1="0" x2="-1.524" y2="0" width="0.1524" layer="51"/>
-<wire x1="-0.254" y1="-0.127" x2="-0.254" y2="0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<wire x1="0.254" y1="0.127" x2="0.254" y2="-0.127" width="1.27" layer="51" curve="-180" cap="flat"/>
-<smd name="1" x="-0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<smd name="2" x="0.762" y="0" dx="1.1684" dy="1.6002" layer="1"/>
-<text x="-1.651" y="1.143" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="0.4001" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="-0.0762" y1="-0.9144" x2="0.0762" y2="0.9144" layer="29"/>
-</package>
-<package name="SJW">
-<description>&lt;b&gt;Solder jumper&lt;/b&gt;</description>
-<wire x1="1.905" y1="-1.524" x2="-1.905" y2="-1.524" width="0.1524" layer="21"/>
-<wire x1="1.905" y1="1.524" x2="2.159" y2="1.27" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="1.27" x2="-1.905" y2="1.524" width="0.1524" layer="21" curve="-90"/>
-<wire x1="-2.159" y1="-1.27" x2="-1.905" y2="-1.524" width="0.1524" layer="21" curve="90"/>
-<wire x1="1.905" y1="-1.524" x2="2.159" y2="-1.27" width="0.1524" layer="21" curve="90"/>
-<wire x1="2.159" y1="-1.27" x2="2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-2.159" y1="-1.27" x2="-2.159" y2="1.27" width="0.1524" layer="21"/>
-<wire x1="-1.905" y1="1.524" x2="1.905" y2="1.524" width="0.1524" layer="21"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51"/>
-<wire x1="1.524" y1="0" x2="2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="-1.524" y1="0" x2="-2.032" y2="0" width="0.1524" layer="51"/>
-<wire x1="0.762" y1="0.762" x2="0.762" y2="-0.762" width="0.1524" layer="51" curve="-180"/>
-<wire x1="-0.762" y1="0.762" x2="-0.762" y2="-0.762" width="0.1524" layer="51" curve="180"/>
-<smd name="1" x="-1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<smd name="2" x="1.27" y="0" dx="1.27" dy="2.54" layer="1"/>
-<text x="-2.159" y="1.778" size="1.27" layer="25" ratio="10">&gt;NAME</text>
-<text x="1" y="0" size="0.02" layer="27">&gt;VALUE</text>
-<rectangle x1="0.762" y1="-0.762" x2="1.016" y2="0.762" layer="51"/>
-<rectangle x1="1.016" y1="-0.635" x2="1.27" y2="0.635" layer="51"/>
-<rectangle x1="1.27" y1="-0.508" x2="1.397" y2="0.508" layer="51"/>
-<rectangle x1="1.397" y1="-0.254" x2="1.524" y2="0.254" layer="51"/>
-<rectangle x1="-1.016" y1="-0.762" x2="-0.762" y2="0.762" layer="51"/>
-<rectangle x1="-1.27" y1="-0.635" x2="-1.016" y2="0.635" layer="51"/>
-<rectangle x1="-1.397" y1="-0.508" x2="-1.27" y2="0.508" layer="51"/>
-<rectangle x1="-1.524" y1="-0.254" x2="-1.397" y2="0.254" layer="51"/>
-<rectangle x1="0.9652" y1="-0.7112" x2="1.0922" y2="-0.5842" layer="51"/>
-<rectangle x1="1.3462" y1="-0.3556" x2="1.4732" y2="-0.2286" layer="51"/>
-<rectangle x1="1.3462" y1="0.2032" x2="1.4732" y2="0.3302" layer="51"/>
-<rectangle x1="0.9652" y1="0.5842" x2="1.0922" y2="0.7112" layer="51"/>
-<rectangle x1="-1.0922" y1="-0.7112" x2="-0.9652" y2="-0.5842" layer="51"/>
-<rectangle x1="-1.4478" y1="-0.3302" x2="-1.3208" y2="-0.2032" layer="51"/>
-<rectangle x1="-1.4732" y1="0.2032" x2="-1.3462" y2="0.3302" layer="51"/>
-<rectangle x1="-1.1176" y1="0.5842" x2="-0.9906" y2="0.7112" layer="51"/>
-</package>
-</packages>
-<symbols>
-<symbol name="SJ">
-<wire x1="0.381" y1="0.635" x2="0.381" y2="-0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="-0.381" y1="-0.635" x2="-0.381" y2="0.635" width="1.27" layer="94" curve="-180" cap="flat"/>
-<wire x1="2.54" y1="0" x2="1.651" y2="0" width="0.1524" layer="94"/>
-<wire x1="-2.54" y1="0" x2="-1.651" y2="0" width="0.1524" layer="94"/>
-<text x="-2.54" y="2.54" size="1.778" layer="95">&gt;NAME</text>
-<text x="-2.54" y="-3.81" size="1.778" layer="96">&gt;VALUE</text>
-<pin name="2" x="5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1" rot="R180"/>
-<pin name="1" x="-5.08" y="0" visible="pad" length="short" direction="pas" swaplevel="1"/>
-</symbol>
-</symbols>
-<devicesets>
-<deviceset name="SJ" prefix="SJ" uservalue="yes">
-<description>SMD solder &lt;b&gt;JUMPER&lt;/b&gt;</description>
-<gates>
-<gate name="1" symbol="SJ" x="0" y="0"/>
-</gates>
-<devices>
-<device name="" package="SJ">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-<device name="W" package="SJW">
-<connects>
-<connect gate="1" pin="1" pad="1"/>
-<connect gate="1" pin="2" pad="2"/>
-</connects>
-<technologies>
-<technology name=""/>
-</technologies>
-</device>
-</devices>
-</deviceset>
-</devicesets>
-</library>
 </libraries>
 <attributes>
 </attributes>
@@ -8643,9 +8541,13 @@ BF959 corrected 2008.03.06&lt;br&gt;</description>
 <part name="U$17" library="microbuilder" deviceset="GND" device=""/>
 <part name="R4" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="10 ohm"/>
 <part name="JP5" library="microbuilder" deviceset="HEADER-1X2" device="ROUND"/>
-<part name="SJ4" library="jumper" deviceset="SJ" device=""/>
 <part name="U$2" library="microbuilder" deviceset="3.3V" device=""/>
 <part name="L1" library="microbuilder" deviceset="FERRITE" device="-0805NO" value="33nH"/>
+<part name="TP2" library="microbuilder" deviceset="TESTPOINT" device="ROUND1.5MM"/>
+<part name="R5" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="R6" library="microbuilder" deviceset="RESISTOR" device="0805_NOOUTLINE" value="1K"/>
+<part name="SJ4" library="microbuilder" deviceset="SOLDERJUMPER" device=""/>
+<part name="C3" library="microbuilder" deviceset="CAP_CERAMIC" device="0805-NOOUTLINE" value="10nF"/>
 </parts>
 <sheets>
 <sheet>
@@ -8686,10 +8588,10 @@ if you will not be using the CR1220 battery.</text>
 <instance part="JP4" gate="A" x="114.3" y="50.8" rot="R270"/>
 <instance part="JP2" gate="A" x="119.38" y="99.06" rot="R90"/>
 <instance part="Q1" gate="G$1" x="180.34" y="78.74"/>
-<instance part="JP1" gate="A" x="27.94" y="99.06" rot="R180"/>
+<instance part="JP1" gate="A" x="27.94" y="91.44" rot="R180"/>
 <instance part="R2" gate="G$1" x="160.02" y="68.58" rot="R90"/>
 <instance part="U$7" gate="G$1" x="160.02" y="55.88"/>
-<instance part="JP3" gate="G$1" x="27.94" y="119.38" rot="R180"/>
+<instance part="JP3" gate="G$1" x="27.94" y="111.76" rot="R180"/>
 <instance part="SJ2" gate="1" x="134.62" y="48.26" rot="R90"/>
 <instance part="SJ3" gate="1" x="137.16" y="48.26" rot="MR90"/>
 <instance part="TP1" gate="G$1" x="27.94" y="63.5"/>
@@ -8703,11 +8605,15 @@ if you will not be using the CR1220 battery.</text>
 <instance part="U$15" gate="G$1" x="218.44" y="106.68"/>
 <instance part="U$16" gate="G$1" x="149.86" y="137.16"/>
 <instance part="U$17" gate="G$1" x="180.34" y="53.34"/>
-<instance part="R4" gate="G$1" x="93.98" y="129.54"/>
-<instance part="JP5" gate="G$1" x="27.94" y="134.62" rot="R180"/>
-<instance part="SJ4" gate="1" x="43.18" y="53.34" rot="R90"/>
+<instance part="R4" gate="G$1" x="104.14" y="129.54"/>
+<instance part="JP5" gate="G$1" x="27.94" y="127" rot="R180"/>
 <instance part="U$2" gate="G$1" x="43.18" y="66.04"/>
 <instance part="L1" gate="G$1" x="83.82" y="129.54" rot="R180"/>
+<instance part="TP2" gate="G$1" x="147.32" y="114.3"/>
+<instance part="R5" gate="G$1" x="40.64" y="134.62" rot="R90"/>
+<instance part="R6" gate="G$1" x="48.26" y="134.62" rot="R90"/>
+<instance part="SJ4" gate="1" x="43.18" y="53.34" rot="R90"/>
+<instance part="C3" gate="G$1" x="93.98" y="119.38"/>
 </instances>
 <busses>
 </busses>
@@ -8732,6 +8638,9 @@ if you will not be using the CR1220 battery.</text>
 <pinref part="U$19" gate="G$1" pin="GND"/>
 <pinref part="X1" gate="G$1" pin="GND@1"/>
 <pinref part="X1" gate="G$1" pin="GND@0"/>
+<pinref part="C3" gate="G$1" pin="2"/>
+<wire x1="93.98" y1="116.84" x2="93.98" y2="111.76" width="0.1524" layer="91"/>
+<junction x="93.98" y="111.76"/>
 </segment>
 <segment>
 <wire x1="27.94" y1="50.8" x2="27.94" y2="40.64" width="0.1524" layer="91"/>
@@ -8741,7 +8650,6 @@ if you will not be using the CR1220 battery.</text>
 <segment>
 <pinref part="MS1" gate="G$1" pin="GND"/>
 <pinref part="U$8" gate="G$1" pin="GND"/>
-<pinref part="JP4" gate="A" pin="7"/>
 <pinref part="JP4" gate="A" pin="7"/>
 <wire x1="109.22" y1="48.26" x2="109.22" y2="53.34" width="0.1524" layer="91"/>
 <junction x="109.22" y="53.34"/>
@@ -8795,8 +8703,8 @@ if you will not be using the CR1220 battery.</text>
 <wire x1="180.34" y1="88.9" x2="180.34" y2="83.82" width="0.1524" layer="91"/>
 </segment>
 <segment>
-<pinref part="SJ4" gate="1" pin="2"/>
 <pinref part="U$2" gate="G$1" pin="3.3V"/>
+<pinref part="SJ4" gate="1" pin="2"/>
 <wire x1="43.18" y1="58.42" x2="43.18" y2="63.5" width="0.1524" layer="91"/>
 </segment>
 </net>
@@ -8816,15 +8724,15 @@ if you will not be using the CR1220 battery.</text>
 <label x="220.98" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
+<label x="38.1" y="40.64" size="1.778" layer="95"/>
 <pinref part="SJ4" gate="1" pin="1"/>
 <wire x1="43.18" y1="48.26" x2="43.18" y2="43.18" width="0.1524" layer="91"/>
-<label x="38.1" y="40.64" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="TX" class="0">
 <segment>
-<wire x1="43.18" y1="119.38" x2="30.48" y2="119.38" width="0.1524" layer="91"/>
-<label x="35.56" y="119.38" size="1.778" layer="95"/>
+<wire x1="43.18" y1="111.76" x2="30.48" y2="111.76" width="0.1524" layer="91"/>
+<label x="35.56" y="111.76" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="2"/>
 </segment>
 <segment>
@@ -8840,8 +8748,8 @@ if you will not be using the CR1220 battery.</text>
 </net>
 <net name="RX" class="0">
 <segment>
-<wire x1="43.18" y1="116.84" x2="30.48" y2="116.84" width="0.1524" layer="91"/>
-<label x="35.56" y="116.84" size="1.778" layer="95"/>
+<wire x1="43.18" y1="109.22" x2="30.48" y2="109.22" width="0.1524" layer="91"/>
+<label x="35.56" y="109.22" size="1.778" layer="95"/>
 <pinref part="JP3" gate="G$1" pin="1"/>
 </segment>
 <segment>
@@ -8887,7 +8795,6 @@ if you will not be using the CR1220 battery.</text>
 <pinref part="MS1" gate="G$1" pin="GPIO13"/>
 <pinref part="JP2" gate="A" pin="3"/>
 <junction x="119.38" y="96.52"/>
-<pinref part="JP2" gate="A" pin="3"/>
 </segment>
 </net>
 <net name="N$3" class="0">
@@ -8895,7 +8802,6 @@ if you will not be using the CR1220 battery.</text>
 <pinref part="MS1" gate="G$1" pin="GPIO12"/>
 <pinref part="JP2" gate="A" pin="4"/>
 <junction x="121.92" y="96.52"/>
-<pinref part="JP2" gate="A" pin="4"/>
 </segment>
 </net>
 <net name="N$5" class="0">
@@ -8903,7 +8809,6 @@ if you will not be using the CR1220 battery.</text>
 <pinref part="MS1" gate="G$1" pin="GPIO11"/>
 <pinref part="JP2" gate="A" pin="5"/>
 <junction x="124.46" y="96.52"/>
-<pinref part="JP2" gate="A" pin="5"/>
 </segment>
 </net>
 <net name="N$6" class="0">
@@ -8944,8 +8849,8 @@ if you will not be using the CR1220 battery.</text>
 </net>
 <net name="GRESET" class="0">
 <segment>
-<wire x1="53.34" y1="93.98" x2="30.48" y2="93.98" width="0.1524" layer="91"/>
-<label x="38.1" y="93.98" size="1.778" layer="95"/>
+<wire x1="53.34" y1="86.36" x2="30.48" y2="86.36" width="0.1524" layer="91"/>
+<label x="38.1" y="86.36" size="1.778" layer="95"/>
 <pinref part="JP1" gate="A" pin="1"/>
 </segment>
 <segment>
@@ -9018,12 +8923,22 @@ if you will not be using the CR1220 battery.</text>
 <wire x1="218.44" y1="88.9" x2="218.44" y2="93.98" width="0.1524" layer="91"/>
 <label x="213.36" y="93.98" size="1.778" layer="95"/>
 </segment>
+<segment>
+<pinref part="R5" gate="G$1" pin="2"/>
+<wire x1="40.64" y1="139.7" x2="40.64" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="142.24" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<pinref part="R6" gate="G$1" pin="2"/>
+<wire x1="48.26" y1="142.24" x2="66.04" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="139.7" x2="48.26" y2="142.24" width="0.1524" layer="91"/>
+<junction x="48.26" y="142.24"/>
+<label x="53.34" y="142.24" size="1.778" layer="95"/>
+</segment>
 </net>
 <net name="ENABLE" class="0">
 <segment>
 <pinref part="JP1" gate="A" pin="4"/>
-<wire x1="30.48" y1="101.6" x2="53.34" y2="101.6" width="0.1524" layer="91"/>
-<label x="38.1" y="101.6" size="1.778" layer="95"/>
+<wire x1="30.48" y1="93.98" x2="53.34" y2="93.98" width="0.1524" layer="91"/>
+<label x="38.1" y="93.98" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="Q1" gate="G$1" pin="G"/>
@@ -9059,8 +8974,8 @@ if you will not be using the CR1220 battery.</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="3"/>
-<wire x1="30.48" y1="99.06" x2="53.34" y2="99.06" width="0.1524" layer="91"/>
-<label x="38.1" y="99.06" size="1.778" layer="95"/>
+<wire x1="30.48" y1="91.44" x2="53.34" y2="91.44" width="0.1524" layer="91"/>
+<label x="38.1" y="91.44" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$18" class="0">
@@ -9085,8 +9000,8 @@ if you will not be using the CR1220 battery.</text>
 </segment>
 <segment>
 <pinref part="JP1" gate="A" pin="2"/>
-<wire x1="30.48" y1="96.52" x2="53.34" y2="96.52" width="0.1524" layer="91"/>
-<label x="38.1" y="96.52" size="1.778" layer="95"/>
+<wire x1="30.48" y1="88.9" x2="53.34" y2="88.9" width="0.1524" layer="91"/>
+<label x="38.1" y="88.9" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="N$2" class="0">
@@ -9104,15 +9019,19 @@ if you will not be using the CR1220 battery.</text>
 </segment>
 <segment>
 <pinref part="R4" gate="G$1" pin="2"/>
-<wire x1="99.06" y1="129.54" x2="106.68" y2="129.54" width="0.1524" layer="91"/>
-<label x="104.14" y="129.54" size="1.778" layer="95"/>
+<wire x1="109.22" y1="129.54" x2="116.84" y2="129.54" width="0.1524" layer="91"/>
+<label x="114.3" y="129.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="SDA" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="2"/>
-<wire x1="30.48" y1="134.62" x2="43.18" y2="134.62" width="0.1524" layer="91"/>
-<label x="35.56" y="134.62" size="1.778" layer="95"/>
+<wire x1="30.48" y1="127" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<label x="53.34" y="127" size="1.778" layer="95"/>
+<pinref part="R5" gate="G$1" pin="1"/>
+<wire x1="40.64" y1="127" x2="60.96" y2="127" width="0.1524" layer="91"/>
+<wire x1="40.64" y1="129.54" x2="40.64" y2="127" width="0.1524" layer="91"/>
+<junction x="40.64" y="127"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="16_SDA"/>
@@ -9123,8 +9042,12 @@ if you will not be using the CR1220 battery.</text>
 <net name="SCL" class="0">
 <segment>
 <pinref part="JP5" gate="G$1" pin="1"/>
-<wire x1="30.48" y1="132.08" x2="43.18" y2="132.08" width="0.1524" layer="91"/>
-<label x="35.56" y="132.08" size="1.778" layer="95"/>
+<wire x1="30.48" y1="124.46" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
+<label x="53.34" y="124.46" size="1.778" layer="95"/>
+<pinref part="R6" gate="G$1" pin="1"/>
+<wire x1="48.26" y1="124.46" x2="60.96" y2="124.46" width="0.1524" layer="91"/>
+<wire x1="48.26" y1="129.54" x2="48.26" y2="124.46" width="0.1524" layer="91"/>
+<junction x="48.26" y="124.46"/>
 </segment>
 <segment>
 <pinref part="U1" gate="G$1" pin="17_SCL"/>
@@ -9136,7 +9059,19 @@ if you will not be using the CR1220 battery.</text>
 <segment>
 <pinref part="L1" gate="G$1" pin="P$1"/>
 <pinref part="R4" gate="G$1" pin="1"/>
-<wire x1="86.36" y1="129.54" x2="88.9" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="86.36" y1="129.54" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+<pinref part="C3" gate="G$1" pin="1"/>
+<wire x1="93.98" y1="129.54" x2="99.06" y2="129.54" width="0.1524" layer="91"/>
+<wire x1="93.98" y1="124.46" x2="93.98" y2="129.54" width="0.1524" layer="91"/>
+<junction x="93.98" y="129.54"/>
+</segment>
+</net>
+<net name="SAFEBOOT" class="0">
+<segment>
+<pinref part="U1" gate="G$1" pin="18_SAFEBOOT_N"/>
+<pinref part="TP2" gate="G$1" pin="P$1"/>
+<wire x1="172.72" y1="114.3" x2="147.32" y2="114.3" width="0.1524" layer="91"/>
+<label x="152.4" y="114.3" size="1.778" layer="95"/>
 </segment>
 </net>
 </nets>

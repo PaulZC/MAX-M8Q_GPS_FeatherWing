@@ -2,7 +2,7 @@
 
 A clone of the Adafruit Ultimate GPS FeatherWing but with the u-blox MAX-M8Q (external antenna) replacing the GlobalTop FGPMMOPA6H
 
-**Tested and working!**
+**23-09-2017: Updated PCB now includes: pull-up resistors for SCL and SDA; a decoupling capacitor for VCC_RF; a test pad for SAFEBOOT**
 
 ![MAX-M8Q_FeatherWing](https://github.com/PaulZC/MAX-M8Q_GPS_FeatherWing/blob/master/img/MAX-M8Q_FeatherWing.jpg)
 
